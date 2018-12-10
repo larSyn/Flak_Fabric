@@ -30,6 +30,14 @@
     				<costStuffCount>30</costStuffCount>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Apparel_FlakVest"]/statBases</xpath>
+				<value>
+      				<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      				<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      				<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+				</value>
+			</li>
 		</operations>
 	</Operation>    
 
@@ -62,6 +70,14 @@
     				<costStuffCount>50</costStuffCount>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Apparel_FlakJacket"]/statBases</xpath>
+				<value>
+      				<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      				<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      				<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+				</value>
+			</li>
 		</operations>
 	</Operation>    
 
@@ -92,6 +108,14 @@
 				<xpath>Defs/ThingDef[defName = "Apparel_FlakPants"]</xpath>
 				<value>
     				<costStuffCount>30</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Apparel_FlakPants"]/statBases</xpath>
+				<value>
+      				<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      				<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      				<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 				</value>
 			</li>
 		</operations>
